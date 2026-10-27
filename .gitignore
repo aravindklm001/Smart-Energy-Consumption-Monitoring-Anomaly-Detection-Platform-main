@@ -1,0 +1,90 @@
+# ─────────────────────────────────────────
+#  Python
+# ─────────────────────────────────────────
+backend/.venv/
+.venv*/
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# ─────────────────────────────────────────
+#  Node / React
+# ─────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/.vite/
+node_modules/
+
+# ─────────────────────────────────────────
+#  Environment & secrets
+# ─────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ─────────────────────────────────────────
+#  Docker volumes & data
+# ─────────────────────────────────────────
+mosquitto/data/
+mosquitto/log/
+
+# ─────────────────────────────────────────
+#  Dataset (too large for GitHub)
+# ─────────────────────────────────────────
+simulator/household_power_consumption.txt
+simulator/*.csv
+simulator/*.zip
+
+# ─────────────────────────────────────────
+#  macOS
+# ─────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# ─────────────────────────────────────────
+#  VS Code
+# ─────────────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json
+.vscode/*.code-workspace
+
+# ─────────────────────────────────────────
+#  Logs
+# ─────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+
+# ─────────────────────────────────────────
+#  ML model checkpoints (can be large)
+# ─────────────────────────────────────────
+*.pt
+*.pth
+*.pkl
+*.joblib
